@@ -79,18 +79,18 @@ $form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $l
   max-width: 1200px;
   padding: 0 $gutter/2;
   margin: 0 auto;
-  letter-spacing: -0.31em;
+  // letter-spacing: -0.31em;
 }
 
 /* Opera hack */
 .opera:-o-prefocus,
 .grid {
-  word-spacing: -0.43em;
+  // word-spacing: -0.43em;
 }
 
 .grid__item {
-  letter-spacing: normal;
-  word-spacing: normal;
+  // letter-spacing: normal;
+  // word-spacing: normal;
 }
 
 /**********************

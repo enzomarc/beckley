@@ -1335,18 +1335,9 @@ em {
 .grid {
   max-width: 1200px;
   padding: 0 15px;
-  margin: 0 auto;
-  letter-spacing: -0.31em; }
+  margin: 0 auto; }
 
 /* Opera hack */
-.opera:-o-prefocus,
-.grid {
-  word-spacing: -0.43em; }
-
-.grid__item {
-  letter-spacing: normal;
-  word-spacing: normal; }
-
 /**********************
 #Helper Classes
 **********************/
