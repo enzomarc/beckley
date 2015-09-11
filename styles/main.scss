@@ -467,6 +467,12 @@ header, .header {
 #Collections
 **********************/
 
+#masonry[data-columns]::before {
+  content: '2 .column.size-1of2';
+}
+.column { float: left; }
+.size-1of2 { width: 50%; padding: 0 15px; }
+
 .collection-imagery {
   padding-left: 30px;
   padding-right: 0;
@@ -475,6 +481,7 @@ header, .header {
 
   .grid {
     padding-right: 0;
+    padding-left: 0;
   }
 
   &__image {
