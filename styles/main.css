@@ -1600,7 +1600,7 @@ header, .header {
 .hero__background {
   width: 100%;
   height: 100vh;
-  background: url("../images/hero.png");
+  background: url("../images/hero.jpg");
   display: block;
   background-size: cover;
   background-position: center;
