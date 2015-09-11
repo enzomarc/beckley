@@ -1393,7 +1393,11 @@ picture {
 **********************/
 .brand {
   color: transparent;
+<<<<<<< HEAD
+  background: url("../images/beckley-logo.svg") left center no-repeat;
+=======
   background: url("images/beckley-logo.svg") left center no-repeat;
+>>>>>>> 98881c835f28bb70c210ff749eaca22e289dd3c3
   width: 100px;
   height: 11px;
   display: inline-block;
@@ -1437,7 +1441,11 @@ header, .header {
 .hero__background {
   width: 100%;
   height: 100vh;
+<<<<<<< HEAD
+  background: url("../images/hero.png");
+=======
   background: url("images/hero.png");
+>>>>>>> 98881c835f28bb70c210ff749eaca22e289dd3c3
   display: block;
   background-size: cover;
   background-position: center;

@@ -373,20 +373,10 @@ picture {
 #Header
 **********************/
 
-// <section class="header">
-//     <a href="/" class="brand">BECKLEY</a>
-//     <ul class="nav">
-//         <li class="nav__item"><a href="" class="nav__link">Collections</a></li>
-//         <li class="nav__item"><a href="" class="nav__link">Our Story</a></li>
-//         <li class="nav__item"><a href="" class="nav__link">Press</a></li>
-//         <li class="nav__item"><a href="" class="nav__link">Stockists</a></li>
-//         <li class="nav__item"><a href="" class="nav__link">Contact</a></li>
-//     </ul>
-// </section>
-
 .brand {
   color: transparent;
-  background: url('images/beckley-logo.svg') left center no-repeat;
+
+  background: url('../images/beckley-logo.svg') left center no-repeat;
   width: 100px;
   height: 11px;
   display: inline-block;
@@ -424,10 +414,6 @@ header, .header {
 #Homepage
 **********************/
 
-// <section class="hero">
-//     <a class="hero__background" href="/collections"></a>
-// </section>
-
 .hero {
   width: 100%;
   height: 100vh;
@@ -437,7 +423,7 @@ header, .header {
 .hero__background {
   width: 100%;
   height: 100vh;
-  background: url('images/hero.png');
+  background: url('../images/hero.png');
   display: block;
   background-size: cover;
   background-position: center;
