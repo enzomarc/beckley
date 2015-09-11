@@ -373,6 +373,17 @@ picture {
 #Header
 **********************/
 
+// <section class="header">
+//     <a href="/" class="brand">BECKLEY</a>
+//     <ul class="nav">
+//         <li class="nav__item"><a href="" class="nav__link">Collections</a></li>
+//         <li class="nav__item"><a href="" class="nav__link">Our Story</a></li>
+//         <li class="nav__item"><a href="" class="nav__link">Press</a></li>
+//         <li class="nav__item"><a href="" class="nav__link">Stockists</a></li>
+//         <li class="nav__item"><a href="" class="nav__link">Contact</a></li>
+//     </ul>
+// </section>
+
 .brand {
   color: transparent;
   background: url('../images/beckley-logo.svg') left center no-repeat;
@@ -412,6 +423,10 @@ header, .header {
 /**********************
 #Homepage
 **********************/
+
+// <section class="hero">
+//     <a class="hero__background" href="/collections"></a>
+// </section>
 
 .hero {
   width: 100%;
