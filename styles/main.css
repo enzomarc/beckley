@@ -1335,18 +1335,9 @@ em {
 .grid {
   max-width: 1200px;
   padding: 0 15px;
-  margin: 0 auto;
-  letter-spacing: -0.31em; }
+  margin: 0 auto; }
 
 /* Opera hack */
-.opera:-o-prefocus,
-.grid {
-  word-spacing: -0.43em; }
-
-.grid__item {
-  letter-spacing: normal;
-  word-spacing: normal; }
-
 /**********************
 #Helper Classes
 **********************/
@@ -1537,6 +1528,9 @@ h6 {
   line-height: 1.2;
   margin: 0 0 0.75em; }
 
+h5 {
+  font-weight: bold; }
+
 p {
   margin: 0 0 0.75em; }
 
@@ -1561,6 +1555,12 @@ picture {
   margin: 0;
   max-width: 100%; }
 
+h2 {
+  font-family: "SuisseWorks", serif;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 3; }
+
 /**********************
 #Header
 **********************/
@@ -1584,6 +1584,7 @@ header, .header {
   z-index: 10; }
 
 .primary-nav {
+  padding-right: 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -1635,9 +1636,6 @@ header, .header {
   padding: 0 15px; }
 
 .collection-imagery {
-  padding-left: 30px;
-  padding-right: 0;
-  margin-right: -15px;
   margin-top: 111px; }
   .collection-imagery .grid {
     padding-right: 0;
@@ -1659,8 +1657,76 @@ header, .header {
   text-indent: -9999px; }
 
 /**********************
+#Our Story
+**********************/
+.our-story {
+  padding-top: 120px;
+  padding-bottom: 90px;
+  min-height: 90vh;
+  display: flex;
+  align-items: center; }
+
+#timeline[data-columns]::before {
+  content: '4 .column.size-1of4'; }
+
+.column {
+  float: left; }
+
+.size-1of4 {
+  width: 25%;
+  padding: 0 15px; }
+
+.timeline__item {
+  padding-bottom: 60px; }
+  .timeline__item img {
+    padding-bottom: 15px; }
+
+/**********************
+#Press
+**********************/
+.press, .celebrity {
+  padding-top: 120px; }
+  .press-item, .celebrity-item {
+    padding-bottom: 30px; }
+    .press-item__image, .celebrity-item__image {
+      padding-bottom: 15px; }
+    .press-item__caption h4, .celebrity-item__caption h4 {
+      line-height: 2; }
+
+.press-item__image img:first-child {
+  display: block; }
+.press-item__image img:last-child {
+  display: none; }
+.press-item__image:hover img:first-child {
+  display: none; }
+.press-item__image:hover img:last-child {
+  display: block; }
+
+.celebrity {
+  padding-top: 60px;
+  padding-bottom: 120px; }
+
+/**********************
+#Stockists
+**********************/
+.stockists-header {
+  padding-top: 120px; }
+
+.stockists {
+  padding-bottom: 120px; }
+
+.stockist {
+  padding-bottom: 45px; }
+  .stockist img {
+    padding-bottom: 15px; }
+  .stockist__caption h4 {
+    line-height: 2; }
+
+/**********************
 #Footer
 **********************/
 footer, .footer {
   background: #F2F4F3;
-  padding: 60px 0; }
+  padding: 60px 0;
+  float: left;
+  width: 100%; }
