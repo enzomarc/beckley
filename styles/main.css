@@ -1545,6 +1545,7 @@ body {
   -ms-font-feature-settings: "kern", "liga", "pnum";
   font-feature-settings: "kern", "liga", "pnum";
   -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
   color: #2C345E;
   font-family: "suissesans", sans-serif;
   font-size: 13px;
