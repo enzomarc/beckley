@@ -1737,6 +1737,13 @@ header, .header {
 .collection-spacer {
   text-indent: -9999px; }
 
+.collection-nav {
+  padding-top: 15px;
+  padding-bottom: 30px; }
+  .collection-nav a {
+    padding-top: 15px;
+    padding-bottom: 30px; }
+
 /**********************
 #Our Story
 **********************/
