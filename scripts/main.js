@@ -6,18 +6,7 @@ $(document).ready(function(){
 	    
 	}
 
-
 	$("#collection-copy").stick_in_parent();
-	
-	if (window.matchMedia("(max-width: 759px)").matches) {
-		$("#collection-copy").trigger("sticky_kit:detach");
-	}
-
-	$(window).resize(function(){
-		if (window.matchMedia("(max-width: 759px)").matches) {
-			$("#collection-copy").trigger("sticky_kit:detach");
-		}
-	})
 
 	window.onload = function() {
 	    var elements = document.querySelectorAll( '.collection-imagery__image img' );
