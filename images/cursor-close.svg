@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>cursor-close</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Laptop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Collection-Zoom" sketch:type="MSArtboardGroup" transform="translate(-339.000000, -302.000000)" fill="#2C345E">
+            <path d="M351,312 L351,299 L349,299 L349,312 L336,312 L336,314 L349,314 L349,327 L351,327 L351,314 L364,314 L364,312 L351,312 Z" id="cursor-close" sketch:type="MSShapeGroup" transform="translate(350.000000, 313.000000) rotate(-315.000000) translate(-350.000000, -313.000000) "></path>
+        </g>
+    </g>
+</svg>
