@@ -6,10 +6,10 @@ $(document).ready(function(){
 	    
 	}
 
-	if (window.matchMedia("(min-width: 760px)").matches) {
-		$("#collection-copy").stick_in_parent();
-		console.log('Above 760');
-	} else {
+
+	$("#collection-copy").stick_in_parent();
+	
+	if (window.matchMedia("(max-width: 759px)").matches) {
 		$("#collection-copy").trigger("sticky_kit:detach");
 	}
 
