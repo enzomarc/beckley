@@ -641,7 +641,13 @@ header, .header {
 }
 
 .collection-nav {
-    
+    padding-top: 15px;
+    padding-bottom: 30px;
+
+    a {
+      padding-top: 15px;
+      padding-bottom: 30px;
+    }
 }
 
 
