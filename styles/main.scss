@@ -17,8 +17,57 @@
 **********************/
 
 // Typography
-$sans: 'SuisseBPIntl-Regular', sans-serif;
-$serif: 'SuisseWorks', serif;
+
+@font-face {
+    font-family: 'suissesans';
+    src: url('http://ordinarystudios.com/beckley/fonts/suissebpintl-light-webfont.eot');
+    src: url('http://ordinarystudios.com/beckley/fonts/suissebpintl-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://ordinarystudios.com/beckley/fonts/suissebpintl-light-webfont.woff2') format('woff2'),
+         url('http://ordinarystudios.com/beckley/fonts/suissebpintl-light-webfont.woff') format('woff'),
+         url('http://ordinarystudios.com/beckley/fonts/suissebpintl-light-webfont.ttf') format('truetype'),
+         url('http://ordinarystudios.com/beckley/fonts/suissebpintl-light-webfont.svg#suisse_bp_intl_lightlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'suisseserif';
+    src: url('http://ordinarystudios.com/beckley/fonts/suisseworks-bold-webfont.eot');
+    src: url('http://ordinarystudios.com/beckley/fonts/suisseworks-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://ordinarystudios.com/beckley/fonts/suisseworks-bold-webfont.woff2') format('woff2'),
+         url('http://ordinarystudios.com/beckley/fonts/suisseworks-bold-webfont.woff') format('woff'),
+         url('http://ordinarystudios.com/beckley/fonts/suisseworks-bold-webfont.ttf') format('truetype'),
+         url('http://ordinarystudios.com/beckley/fonts/suisseworks-bold-webfont.svg#suisse_worksbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'suisseserif';
+    src: url('http://ordinarystudios.com/beckley/fonts/suisseworks-book-webfont.eot');
+    src: url('http://ordinarystudios.com/beckley/fonts/suisseworks-book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://ordinarystudios.com/beckley/fonts/suisseworks-book-webfont.woff2') format('woff2'),
+         url('http://ordinarystudios.com/beckley/fonts/suisseworks-book-webfont.woff') format('woff'),
+         url('http://ordinarystudios.com/beckley/fonts/suisseworks-book-webfont.ttf') format('truetype'),
+         url('http://ordinarystudios.com/beckley/fonts/suisseworks-book-webfont.svg#suisse_worksbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'suisseserif';
+    src: url('suisseworks-bookitalic-webfont.eot');
+    src: url('suisseworks-bookitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('suisseworks-bookitalic-webfont.woff2') format('woff2'),
+         url('suisseworks-bookitalic-webfont.woff') format('woff'),
+         url('suisseworks-bookitalic-webfont.ttf') format('truetype'),
+         url('suisseworks-bookitalic-webfont.svg#suisse_worksbook_italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+$sans: 'suissesans', sans-serif;
+$serif: 'suisseserif', serif;
 $base-font-family: $sans;
 $heading-font-family: $base-font-family;
 
