@@ -1692,6 +1692,9 @@ header, .header {
   .size-1of2:last-child {
     padding-right: 0; }
 
+.collection {
+  overflow: auto; }
+
 .collection-description {
   font-family: "suisseserif", serif; }
   .collection-description h3 {

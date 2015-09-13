@@ -573,6 +573,10 @@ header, .header {
   }
 }
 
+.collection {
+  overflow: auto;
+}
+
 .collection-description {
   font-family: $serif;
   h3 {
