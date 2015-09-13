@@ -14,7 +14,7 @@ $(document).ready(function(){
 	}
 
 	$(window).resize(function(){
-		if (window.matchMedia("(max-width: 760px)").matches) {
+		if (window.matchMedia("(min-width: 760px)").matches) {
 			$("#collection-copy").stick_in_parent();
 			console.log('Above 760');
 		} else {
