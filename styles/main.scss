@@ -600,6 +600,12 @@ header, .header {
  
  width: 100%;
 
+ @media screen and (max-width: 759px) {
+    max-width: 440px;
+    margin: 120px auto;
+  }
+ 
+
   @media screen and (min-width: 760px) {
     width:33.333%;
     min-height: 100vh;
