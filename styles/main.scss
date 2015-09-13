@@ -150,20 +150,12 @@ $form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $l
 
 .grid {
   max-width: 1200px;
-  padding: 0 $gutter/2;
   margin: 0 auto;
-  // letter-spacing: -0.31em;
-}
 
-/* Opera hack */
-.opera:-o-prefocus,
-.grid {
-  // word-spacing: -0.43em;
-}
+  @media screen and (min-width: 480px) {
+      padding: 0 $gutter/2;
+  }
 
-.grid__item {
-  // letter-spacing: normal;
-  // word-spacing: normal;
 }
 
 /**********************
@@ -495,6 +487,11 @@ header, .header {
 .primary-nav {
 
   padding-right: 0;
+
+  @media screen and (max-width: 480px) {
+    padding-left: 0;
+  }
+
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -590,15 +587,29 @@ header, .header {
       }
     }
   }
+
+  width: 100%;
+
+  @media screen and (min-width: 760px) {
+    width:66.666%;
+  }
+
 }
 
 .collection-copy {
-  min-height: 100vh;
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  flex-direction: column;
-  float: left;
+ 
+ width: 100%;
+
+  @media screen and (min-width: 760px) {
+    width:33.333%;
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    float: left;
+  }
+
 }
 
 .collection-spacer {
