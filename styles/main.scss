@@ -561,7 +561,17 @@ header, .header {
 }
 
 .column { float: left; }
-.size-1of2 { width: 50%; padding: 0 15px; }
+.size-1of2 { 
+  width: 50%; 
+  padding: 0 15px; 
+  &:first-child {
+    padding-left: 0;
+  }
+
+  &:last-child {
+    padding-right: 0;
+  }
+}
 
 .collection-description {
   font-family: $serif;
@@ -573,6 +583,7 @@ header, .header {
 .collection-imagery {
   // padding-left: 30px;
   margin-top: 111px;
+  float: right;
 
   .grid {
     padding-right: 0;
