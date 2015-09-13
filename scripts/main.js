@@ -1,11 +1,16 @@
+$(document).ready(function(){
 
+	$("#collection-copy").stick_in_parent();
 
-$("#collection-copy").stick_in_parent();
+	if(!(/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)){
+	    skrollr.init({
+	        forceHeight: false
+	    });
+	}
 
-var s = skrollr.init();
+	window.onload = function() {
+	    var elements = document.querySelectorAll( '.collection-imagery__image img' );
+	    Intense( elements );
+	};
 
-window.onload = function() {
-    var elements = document.querySelectorAll( '.collection-imagery__image img' );
-    Intense( elements );
-};
-
+});
