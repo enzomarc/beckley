@@ -1,11 +1,10 @@
 $(document).ready(function(){
 
-	$("#collection-copy").stick_in_parent();
-
 	if(!(/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)){
 	    skrollr.init({
 	        forceHeight: false
 	    });
+	    $("#collection-copy").stick_in_parent();
 	}
 
 	window.onload = function() {
