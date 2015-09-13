@@ -1370,10 +1370,11 @@ em {
  */
 .grid {
   max-width: 1200px;
-  padding: 0 15px;
   margin: 0 auto; }
+  @media screen and (min-width: 480px) {
+    .grid {
+      padding: 0 15px; } }
 
-/* Opera hack */
 /**********************
 #Helper Classes
 **********************/
@@ -1629,6 +1630,9 @@ header, .header {
   flex-direction: row;
   justify-content: space-between;
   float: right; }
+  @media screen and (max-width: 480px) {
+    .primary-nav {
+      padding-left: 0; } }
 
 .nav__link {
   font-family: "suissesans", sans-serif;
@@ -1687,7 +1691,8 @@ header, .header {
     font-weight: bold; }
 
 .collection-imagery {
-  margin-top: 111px; }
+  margin-top: 111px;
+  width: 100%; }
   .collection-imagery .grid {
     padding-right: 0;
     padding-left: 0; }
@@ -1698,14 +1703,21 @@ header, .header {
       .collection-imagery__image img:hover {
         cursor: url(http://ordinarystudios.com/beckley/images/cursor-open.png) 11 11, auto;
         cursor: url(http://ordinarystudios.com/beckley/images/cursor-open.svg) 11 11, auto; }
+  @media screen and (min-width: 760px) {
+    .collection-imagery {
+      width: 66.666%; } }
 
 .collection-copy {
-  min-height: 100vh;
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  flex-direction: column;
-  float: left; }
+  width: 100%; }
+  @media screen and (min-width: 760px) {
+    .collection-copy {
+      width: 33.333%;
+      min-height: 100vh;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      flex-direction: column;
+      float: left; } }
 
 .collection-spacer {
   text-indent: -9999px; }

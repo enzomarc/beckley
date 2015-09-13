@@ -3,7 +3,11 @@ $(document).ready(function(){
 	    skrollr.init({
 	        forceHeight: false
 	    });
-	    $("#collection-copy").stick_in_parent();
+	    
+	}
+
+	if (window.matchMedia("(min-width: 760px)").matches) {
+	  $("#collection-copy").stick_in_parent();
 	}
 
 	window.onload = function() {
