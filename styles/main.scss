@@ -665,7 +665,7 @@ header, .header {
   display: flex;
   align-items: center;
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 768px) {
     flex-direction: column-reverse;
 
     .grid__item {
