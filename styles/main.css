@@ -1537,6 +1537,9 @@ td,
 th {
   vertical-align: middle; }
 
+.wrapper {
+  min-height: 100vh; }
+
 /**********************
 #Typography
 **********************/
@@ -1679,7 +1682,9 @@ header, .header {
 #Collections
 **********************/
 #masonry[data-columns]::before {
-  content: '2 .column.size-1of2'; }
+  content: '2 .column.size-1of2';
+  text-indent: -9999px;
+  color: white; }
 
 .column {
   float: left; }
@@ -1753,9 +1758,28 @@ header, .header {
   min-height: 90vh;
   display: flex;
   align-items: center; }
+  @media screen and (max-width: 480px) {
+    .our-story {
+      flex-direction: column-reverse; }
+      .our-story .grid__item {
+        padding: 15px; } }
+
+.timeline {
+  overflow: auto; }
 
 #timeline[data-columns]::before {
-  content: '4 .column.size-1of4'; }
+  content: '4 .column.size-1of4';
+  text-indent: -9999px;
+  color: white; }
+
+@media screen and (max-width: 480px) {
+  #timeline[data-columns]::before {
+    content: '1 .column.size-1of1'; } }
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  #timeline[data-columns]::before {
+    content: '2 .column.size-1of2'; } }
+.size-1of1 {
+  width: 100%; }
 
 .column {
   float: left; }
@@ -1768,6 +1792,10 @@ header, .header {
   padding-bottom: 60px; }
   .timeline__item img {
     padding-bottom: 15px; }
+
+.our-history {
+  float: left;
+  overflow: auto; }
 
 /**********************
 #Press
@@ -1809,6 +1837,18 @@ header, .header {
     padding-bottom: 15px; }
   .stockist__caption h4 {
     line-height: 2; }
+
+/**********************
+#Contact
+**********************/
+.contact {
+  padding-top: 120px;
+  padding-bottom: 90px;
+  display: flex;
+  justify-content: center; }
+  @media screen and (max-width: 480px) {
+    .contact {
+      flex-direction: column; } }
 
 /**********************
 #Footer

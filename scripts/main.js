@@ -1,9 +1,8 @@
-$(document).ready(function(){
+// $(document).ready(function(){
 	if(!(/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)){
 	    skrollr.init({
 	        forceHeight: false
 	    });
-	    
 	}
 
 	if (window.matchMedia("(min-width: 760px)").matches) {
@@ -26,4 +25,4 @@ $(document).ready(function(){
 	    var elements = document.querySelectorAll( '.collection-imagery__image img' );
 	    Intense( elements );
 	};
-});
+// });
