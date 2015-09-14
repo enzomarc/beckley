@@ -1538,7 +1538,8 @@ th {
   vertical-align: middle; }
 
 .wrapper {
-  min-height: 100vh; }
+  min-height: 100vh;
+  overflow: auto; }
 
 /**********************
 #Typography
@@ -1794,8 +1795,8 @@ header, .header {
     padding-bottom: 15px; }
 
 .our-history {
-  float: left;
-  overflow: auto; }
+  overflow: auto;
+  margin: 0 auto; }
 
 /**********************
 #Press

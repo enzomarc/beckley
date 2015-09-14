@@ -370,6 +370,7 @@ th {
 
 .wrapper {
   min-height: 100vh;
+  overflow: auto;
 }
 
 /**********************
@@ -675,6 +676,10 @@ header, .header {
 
 .timeline {
   overflow: auto;
+
+  &__item {
+
+  }
 }
 
 #timeline[data-columns]::before {
@@ -710,8 +715,8 @@ header, .header {
 }
 
 .our-history {
-  float: left;
   overflow: auto;
+  margin: 0 auto;
 }
 
 /**********************
