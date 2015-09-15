@@ -104,7 +104,7 @@ $base-line-height: 1.5;
 $heading-line-height: 1.2;
 
 // Other Sizes
-$base-border-radius: 3px;
+$base-border-radius: 0px;
 $base-spacing: $base-line-height * 1em;
 $small-spacing: $base-spacing / 2;
 $base-z-index: 0;
@@ -122,7 +122,7 @@ $base-font-color: $beckley-blue;
 $action-color: $beckley-blue;
 
 // Border
-$base-border-color: $light-gray;
+$base-border-color: $beckley-blue;
 $base-border: 1px solid $base-border-color;
 
 // Forms
@@ -225,7 +225,7 @@ button {
 
 fieldset {
   background-color: lighten($base-border-color, 10%);
-  border: $base-border;
+  border: none;// $base-border;
   margin: 0 0 $small-spacing;
   padding: $base-spacing;
 }
@@ -256,7 +256,7 @@ select[multiple=multiple],
 textarea {
   background-color: $base-background-color;
   border: $base-border;
-  border-radius: $base-border-radius;
+  border-radius: 0; // $base-border-radius;
   box-shadow: $form-box-shadow;
   box-sizing: border-box;
   font-family: $base-font-family;
