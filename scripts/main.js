@@ -1,4 +1,4 @@
-$(document).ready(function(){
+// $(document).ready(function(){
 	if(!(/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)){
 	    skrollr.init({
 	        forceHeight: false
@@ -25,4 +25,23 @@ $(document).ready(function(){
 	    var elements = document.querySelectorAll( '.collection-imagery__image img' );
 	    Intense( elements );
 	};
-});
+
+	var feed = new Instafeed({
+        get: 'tagged',
+        tagName: 'awesome',
+        clientId: 'YOUR_CLIENT_ID'
+    });
+    feed.run();
+
+    if ($('#instafeed').length){
+	    var userFeed = new Instafeed({
+	        get: 'user',
+	        userId: 1591524257,
+	        accessToken: '1591524257.467ede5.48507d949bd44197858d4440b5e74b72',
+	        resolution: 'standard_resolution',
+	        limit: 6
+	    });
+	    userFeed.run();
+	  }
+
+// });
