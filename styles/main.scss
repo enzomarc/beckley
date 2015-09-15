@@ -669,9 +669,7 @@ header, .header {
 **********************/
 
 .our-story {
-  padding-top: 120px;
-  padding-bottom: 90px;
-  min-height: 90vh;
+ 
   display: flex;
   align-items: center;
 
@@ -685,6 +683,8 @@ header, .header {
 }
 
 .timeline {
+ padding-top: 120px;
+  padding-bottom: 90px;
   overflow: auto;
 
   &__item {
