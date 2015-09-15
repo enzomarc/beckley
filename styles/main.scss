@@ -414,6 +414,10 @@ h2 {
   padding: 30px 0;
 }
 
+h3 {
+  font-family: $serif;
+}
+
 figcaption {
   font-family: $serif !important;
   font-weight: bold !important;
@@ -847,5 +851,11 @@ footer, .footer {
 
   address {
     line-height: 1.5;
+  }
+
+  .legal {
+    a {
+      text-decoration: underline;
+    }
   }
 }

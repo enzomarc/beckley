@@ -1575,6 +1575,9 @@ h2 {
   line-height: 1.2;
   padding: 30px 0; }
 
+h3 {
+  font-family: "suisseserif", serif; }
+
 figcaption {
   font-family: "suisseserif", serif !important;
   font-weight: bold !important;
@@ -1882,3 +1885,5 @@ footer, .footer {
   width: 100%; }
   footer address, .footer address {
     line-height: 1.5; }
+  footer .legal a, .footer .legal a {
+    text-decoration: underline; }
