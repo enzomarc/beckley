@@ -822,6 +822,10 @@ header, .header {
   @media screen and (max-width: 480px) {
     flex-direction: column;
   }
+
+  .hide {
+    visibility: hidden;
+  }
 }
 
 
