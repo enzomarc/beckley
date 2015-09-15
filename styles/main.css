@@ -1865,6 +1865,8 @@ header, .header {
   @media screen and (max-width: 480px) {
     .contact {
       flex-direction: column; } }
+  .contact .hide {
+    visibility: hidden; }
 
 /**********************
 #Footer
