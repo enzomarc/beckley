@@ -852,4 +852,10 @@ footer, .footer {
   address {
     line-height: 1.5;
   }
+
+  .legal {
+    a {
+      text-decoration: underline;
+    }
+  }
 }

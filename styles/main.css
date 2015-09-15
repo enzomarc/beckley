@@ -1885,3 +1885,5 @@ footer, .footer {
   width: 100%; }
   footer address, .footer address {
     line-height: 1.5; }
+  footer .legal a, .footer .legal a {
+    text-decoration: underline; }
