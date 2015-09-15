@@ -23,6 +23,13 @@ $(document).ready(function(){
 	    });
 	}
 
+	if (window.matchMedia("(min-width: 760px)").matches) {
+		$("#collection-copy").stick_in_parent();
+		console.log('Sticky');
+	} else {
+		$("#collection-copy").trigger("sticky_kit:detach");
+		console.log('Not sticky');
+	}
 
 	window.onload = function() {
 	    var elements = document.querySelectorAll( '.collection-imagery__image img' );
@@ -47,4 +54,14 @@ $(document).ready(function(){
 	    userFeed.run();
 	  }
 
+});
+
+$(window).load(function(){
+	if (window.matchMedia("(min-width: 760px)").matches) {
+		$("#collection-copy").stick_in_parent();
+		console.log('Sticky');
+	} else {
+		$("#collection-copy").trigger("sticky_kit:detach");
+		console.log('Not sticky');
+	}
 });
