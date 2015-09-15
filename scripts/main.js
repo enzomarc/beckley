@@ -1,4 +1,4 @@
-// $(document).ready(function(){
+$(document).ready(function(){
 	if(!(/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)){
 	    skrollr.init({
 	        forceHeight: false
@@ -7,9 +7,10 @@
 
 	if (window.matchMedia("(min-width: 760px)").matches) {
 		$("#collection-copy").stick_in_parent();
-		console.log('Above 760');
+		console.log('Sticky');
 	} else {
 		$("#collection-copy").trigger("sticky_kit:detach");
+		console.log('Not sticky');
 	}
 
 	$(window).resize(function(){
@@ -44,4 +45,4 @@
 	    userFeed.run();
 	  }
 
-// });
+});
