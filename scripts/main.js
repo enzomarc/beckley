@@ -1,10 +1,12 @@
-$(document).ready(function(){
-	if(!(/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)){
-	    skrollr.init({
-	        forceHeight: false
-	    });
-	}
+if (window.matchMedia("(min-width: 760px)").matches) {
+	$("#collection-copy").stick_in_parent();
+	console.log('Sticky');
+} else {
+	$("#collection-copy").trigger("sticky_kit:detach");
+	console.log('Not sticky');
+}
 
+$(window).resize(function(){
 	if (window.matchMedia("(min-width: 760px)").matches) {
 		$("#collection-copy").stick_in_parent();
 		console.log('Sticky');
@@ -12,15 +14,15 @@ $(document).ready(function(){
 		$("#collection-copy").trigger("sticky_kit:detach");
 		console.log('Not sticky');
 	}
+})
 
-	$(window).resize(function(){
-		if (window.matchMedia("(min-width: 760px)").matches) {
-			$("#collection-copy").stick_in_parent();
-			console.log('Above 760');
-		} else {
-			$("#collection-copy").trigger("sticky_kit:detach");
-		}
-	})
+$(document).ready(function(){
+	if(!(/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)){
+	    skrollr.init({
+	        forceHeight: false
+	    });
+	}
+
 
 	window.onload = function() {
 	    var elements = document.querySelectorAll( '.collection-imagery__image img' );
