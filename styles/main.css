@@ -1861,12 +1861,16 @@ header, .header {
   padding-top: 120px;
   padding-bottom: 90px;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  max-width: 700px; }
   @media screen and (max-width: 480px) {
     .contact {
       flex-direction: column; } }
   .contact .hide {
     visibility: hidden; }
+  .contact .bottom-line-only {
+    border: none;
+    border-bottom: solid 1px #2C345E; }
 
 /**********************
 #Footer
