@@ -1443,6 +1443,7 @@ select {
   font-size: 13px; }
 
 label {
+  margin-top: 1em;
   font-weight: 600;
   margin-bottom: 0.375em; }
   label.required::after {
@@ -1456,7 +1457,7 @@ textarea {
   background-color: #fff;
   border: 1px solid #2C345E;
   border-radius: 0;
-  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
+  box-shadow: inset 0 1px 3px rgba(44, 52, 94, 0);
   box-sizing: border-box;
   font-family: "suissesans", sans-serif;
   font-size: 13px;
@@ -1472,7 +1473,7 @@ textarea {
   select[multiple=multiple]:focus,
   textarea:focus {
     border-color: #2C345E;
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(36, 42, 77, 0.7);
+    box-shadow: inset 0 1px 3px rgba(44, 52, 94, 0), 0 0 5px rgba(36, 42, 77, 0.7);
     outline: none; }
 
 textarea {
