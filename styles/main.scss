@@ -818,6 +818,7 @@ header, .header {
   padding-bottom: 90px;
   display: flex;
   justify-content: center;
+  max-width: 700px;
 
   @media screen and (max-width: 480px) {
     flex-direction: column;
@@ -825,6 +826,11 @@ header, .header {
 
   .hide {
     visibility: hidden;
+  }
+
+  .bottom-line-only {
+    border: none;
+    border-bottom: solid 1px $beckley-blue;
   }
 }
 
