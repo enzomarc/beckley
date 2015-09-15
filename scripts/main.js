@@ -1,5 +1,6 @@
 if (window.matchMedia("(min-width: 760px)").matches) {
 	$("#collection-copy").stick_in_parent();
+	$("#collection-copy").removeClass('.collection-copy-fixed');
 	console.log('Sticky');
 } else {
 	$("#collection-copy").trigger("sticky_kit:detach");
@@ -9,6 +10,7 @@ if (window.matchMedia("(min-width: 760px)").matches) {
 $(window).resize(function(){
 	if (window.matchMedia("(min-width: 760px)").matches) {
 		$("#collection-copy").stick_in_parent();
+		$("#collection-copy").removeClass('.collection-copy-fixed');
 		console.log('Sticky');
 	} else {
 		$("#collection-copy").trigger("sticky_kit:detach");
@@ -59,6 +61,7 @@ $(document).ready(function(){
 $(window).load(function(){
 	if (window.matchMedia("(min-width: 760px)").matches) {
 		$("#collection-copy").stick_in_parent();
+		$("#collection-copy").removeClass('.collection-copy-fixed');
 		console.log('Sticky');
 	} else {
 		$("#collection-copy").trigger("sticky_kit:detach");
