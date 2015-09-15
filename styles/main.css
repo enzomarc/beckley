@@ -1871,3 +1871,5 @@ footer, .footer {
   padding: 60px 0;
   float: left;
   width: 100%; }
+  footer address, .footer address {
+    line-height: 1.5; }
