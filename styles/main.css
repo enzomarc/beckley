@@ -1762,9 +1762,6 @@ header, .header {
 #Our Story
 **********************/
 .our-story {
-  padding-top: 120px;
-  padding-bottom: 90px;
-  min-height: 90vh;
   display: flex;
   align-items: center; }
   @media screen and (max-width: 768px) {
@@ -1774,6 +1771,8 @@ header, .header {
         padding: 15px; } }
 
 .timeline {
+  padding-top: 120px;
+  padding-bottom: 90px;
   overflow: auto; }
 
 #timeline[data-columns]::before {
