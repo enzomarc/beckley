@@ -657,9 +657,14 @@ header, .header {
 
 }
 
-.collection-copy-fixed {
-  position: fixed;
-  padding-right: 60px;
+@media screen and (min-width: 480px) {
+
+  .collection-copy-fixed {
+    position: fixed;
+    padding-right: 60px;
+    z-index: 10;
+  }
+
 }
 
 .collection-spacer {
