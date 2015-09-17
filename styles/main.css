@@ -1653,23 +1653,6 @@ header, .header {
 .timeline {
   overflow: auto; }
 
-#timeline[data-columns]::before {
-  content: '4 .column.size-1of4';
-  text-indent: -9999px;
-  color: white; }
-
-@media screen and (max-width: 480px) {
-  #timeline[data-columns]::before {
-    content: '1 .column.size-1of1'; } }
-
-@media screen and (min-width: 481px) and (max-width: 768px) {
-  #timeline[data-columns]::before {
-    content: '2 .column.size-1of2'; } }
-
-@media screen and (min-width: 769px) {
-  #timeline[data-columns]::before {
-    content: '4 .column.size-1of4'; } }
-
 .size-1of1 {
   width: 100%; }
 
