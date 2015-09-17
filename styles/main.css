@@ -1472,7 +1472,7 @@ header, .header {
   padding: 30px 0;
   width: 100%;
   margin: 0 auto;
-  z-index: 100; }
+  z-index: 1000; }
   @media screen and (max-width: 480px) {
     header, .header {
       background: rgba(255, 255, 255, 0.6); } }
