@@ -1526,7 +1526,7 @@ header, .header {
   background-repeat: no-repeat; }
 
 .brand-summary {
-  padding: 150px 0; }
+  padding: 130px 0 150px; }
 
 .pull-quote {
   font-family: "suisseserif", serif;
