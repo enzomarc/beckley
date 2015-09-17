@@ -45,8 +45,8 @@ $(document).ready(function(){
     if ($('#instafeed').length){
 	    var userFeed = new Instafeed({
 	        get: 'user',
-	        userId: 1591524257,
-	        accessToken: '1591524257.467ede5.48507d949bd44197858d4440b5e74b72',
+	        userId: 226305277,
+	        accessToken: '226305277.467ede5.5cab4058fe0c461893536a7cab47ccd1',
 	        resolution: 'standard_resolution',
 	        limit: 6
 	    });
