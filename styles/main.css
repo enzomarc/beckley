@@ -1774,6 +1774,8 @@ footer, .footer {
     display: block;
     float: left;
     box-sizing: border-box; }
+  #instafeed img {
+    float: left; }
   @media screen and (min-width: 768px) {
     #instafeed a {
       width: calc(100%/6 - 25px);
