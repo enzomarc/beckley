@@ -1536,9 +1536,10 @@ header, .header {
   max-width: 770px;
   margin: 0 auto; }
   .pull-quote.motto {
-    margin-top: 2em;
+    margin-bottom: 2em;
     font-size: 1.5em;
-    font-weight: lighter; }
+    font-weight: lighter;
+    font-family: "suissesans", sans-serif; }
 
 .author {
   font-family: "suisseserif", serif;
