@@ -272,7 +272,7 @@ textarea {
   }
 
   &:focus {
-    border-color: $action-color;
+    border: 1px solid $action-color;
     box-shadow: $form-box-shadow-focus;
     outline: none;
   }
