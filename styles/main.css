@@ -1765,4 +1765,24 @@ footer, .footer {
     margin-top: 2em; }
     footer .legal a, .footer .legal a {
       text-decoration: underline; }
+
+#instafeed {
+  float: left;
+  display: block; }
+  #instafeed a {
+    width: calc(100%/3);
+    display: block;
+    float: left;
+    box-sizing: border-box; }
+  @media screen and (min-width: 768px) {
+    #instafeed a {
+      width: calc(100%/6 - 25px);
+      display: block;
+      float: left;
+      margin: 0 15px;
+      box-sizing: border-box; }
+      #instafeed a:first-child {
+        margin-left: 0; }
+      #instafeed a:last-child {
+        margin-right: 0; } }
 /*# sourceMappingURL=main.css.map */
