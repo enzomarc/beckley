@@ -33,7 +33,7 @@
   font-family: 'suissesans';
   src: url("http://ordinarystudios.com/beckley/fonts/suissebpintl-light-webfont.eot");
   src: url("http://ordinarystudios.com/beckley/fonts/suissebpintl-light-webfont.eot?#iefix") format("embedded-opentype"), url("http://ordinarystudios.com/beckley/fonts/suissebpintl-light-webfont.woff2") format("woff2"), url("http://ordinarystudios.com/beckley/fonts/suissebpintl-light-webfont.woff") format("woff"), url("http://ordinarystudios.com/beckley/fonts/suissebpintl-light-webfont.ttf") format("truetype"), url("http://ordinarystudios.com/beckley/fonts/suissebpintl-light-webfont.svg#suisse_bp_intl_lightlight") format("svg");
-  font-weight: light;
+  font-weight: lighter;
   font-style: normal; }
 
 @font-face {
@@ -1502,7 +1502,7 @@ header, .header {
 
 .nav__link {
   font-family: "suissesans", sans-serif;
-  font-weight: light;
+  font-weight: lighter;
   padding: 20px 0; }
 
 /**********************
@@ -1537,7 +1537,8 @@ header, .header {
   margin: 0 auto; }
   .pull-quote.motto {
     margin-top: 2em;
-    font-weight: .75em; }
+    font-size: 1.5em;
+    font-weight: lighter; }
 
 .author {
   font-family: "suisseserif", serif;
