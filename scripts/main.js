@@ -1,24 +1,23 @@
 if (window.matchMedia("(min-width: 760px)").matches) {
 	$("#collection-copy").stick_in_parent();
 	$("#collection-copy").removeClass('.collection-copy-fixed');
-	console.log('Sticky');
 } else {
 	$("#collection-copy").trigger("sticky_kit:detach");
-	console.log('Not sticky');
 }
 
 $(window).resize(function(){
 	if (window.matchMedia("(min-width: 760px)").matches) {
 		$("#collection-copy").stick_in_parent();
 		$("#collection-copy").removeClass('.collection-copy-fixed');
-		console.log('Sticky');
 	} else {
 		$("#collection-copy").trigger("sticky_kit:detach");
-		console.log('Not sticky');
 	}
 })
 
 $(document).ready(function(){
+
+	console.log('Designed and developed by Ordinary Studios.');
+
 	if(!(/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)){
 	    skrollr.init({
 	        forceHeight: false
@@ -27,10 +26,8 @@ $(document).ready(function(){
 
 	if (window.matchMedia("(min-width: 760px)").matches) {
 		$("#collection-copy").stick_in_parent();
-		console.log('Sticky');
 	} else {
 		$("#collection-copy").trigger("sticky_kit:detach");
-		console.log('Not sticky');
 	}
 
 	window.onload = function() {
