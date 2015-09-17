@@ -1472,7 +1472,10 @@ header, .header {
   padding: 30px 0;
   width: 100%;
   margin: 0 auto;
-  z-index: 10; }
+  z-index: 100; }
+  @media screen and (max-width: 480px) {
+    header, .header {
+      background: rgba(255, 255, 255, 0.6); } }
 
 .primary-nav {
   padding-right: 0;
@@ -1509,7 +1512,7 @@ header, .header {
   overflow: hidden; }
   @media screen and (max-width: 480px) {
     .hero {
-      padding-top: 79px; } }
+      padding-top: 113px; } }
 
 .hero__background {
   width: 100%;
@@ -1611,9 +1614,11 @@ header, .header {
               flex-direction: column;
       float: left; } }
 
-.collection-copy-fixed {
-  position: fixed;
-  padding-right: 60px; }
+@media screen and (min-width: 480px) {
+  .collection-copy-fixed {
+    position: fixed;
+    padding-right: 60px;
+    z-index: 100; } }
 
 .collection-spacer {
   text-indent: -9999px; }
