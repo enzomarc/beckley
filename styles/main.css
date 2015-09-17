@@ -1596,6 +1596,7 @@ header, .header {
   @media screen and (min-width: 760px) {
     .collection-copy {
       width: 33.333%;
+      max-width: 440px;
       min-height: 100vh;
       display: -webkit-box;
       display: -webkit-flex;
@@ -1748,7 +1749,7 @@ header, .header {
   .contact .hide {
     visibility: hidden; }
 
-.bottom-line-only {
+input.bottom-line-only {
   border: none;
   border-bottom: solid 1px #2C345E;
   background: none;

@@ -659,6 +659,7 @@ header, .header {
 
   @media screen and (min-width: 760px) {
     width:33.333%;
+    max-width: 440px;
     min-height: 100vh;
     display: flex;
     align-items: flex-start;
@@ -855,7 +856,7 @@ header, .header {
   }
 }
 
-.bottom-line-only {
+input.bottom-line-only {
   border: none;
   border-bottom: solid 1px $beckley-blue;
   background: none;
