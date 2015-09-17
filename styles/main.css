@@ -1568,9 +1568,11 @@ header, .header {
     font-weight: bold; }
 
 .collection-imagery {
-  margin-top: 111px;
   float: right;
   width: 100%; }
+  @media screen and (min-width: 480px) {
+    .collection-imagery {
+      margin-top: 111px; } }
   .collection-imagery .grid {
     padding-right: 0;
     padding-left: 0; }

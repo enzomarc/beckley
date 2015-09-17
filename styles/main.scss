@@ -612,7 +612,14 @@ header, .header {
 
 .collection-imagery {
   // padding-left: 30px;
-  margin-top: 111px;
+    
+  @media screen and (min-width: 480px) {
+
+    margin-top: 111px;
+
+  }
+
+  
   float: right;
 
   .grid {
