@@ -50,7 +50,7 @@
          url('http://ordinarystudios.com/beckley/fonts/suissebpintl-light-webfont.woff') format('woff'),
          url('http://ordinarystudios.com/beckley/fonts/suissebpintl-light-webfont.ttf') format('truetype'),
          url('http://ordinarystudios.com/beckley/fonts/suissebpintl-light-webfont.svg#suisse_bp_intl_lightlight') format('svg');
-    font-weight: light;
+    font-weight: lighter;
     font-style: normal;
 }
 
@@ -529,7 +529,7 @@ header, .header {
 
 .nav__link {
   font-family: $sans;
-  font-weight: light;
+  font-weight: lighter;
   padding: 20px 0;
 }
 
@@ -571,7 +571,8 @@ header, .header {
 
   &.motto {
     margin-top: 2em;
-    font-weight: .75em;
+    font-size: 1.5em;
+    font-weight: lighter;
   }
 }
 
