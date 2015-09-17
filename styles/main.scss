@@ -853,11 +853,13 @@ header, .header {
   .hide {
     visibility: hidden;
   }
+}
 
-  .bottom-line-only {
-    border: none;
-    border-bottom: solid 1px $beckley-blue;
-  }
+.bottom-line-only {
+  border: none;
+  border-bottom: solid 1px $beckley-blue;
+  background: none;
+  padding-left: 0;
 }
 
 
