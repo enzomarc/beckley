@@ -1535,6 +1535,9 @@ header, .header {
   line-height: 1.4;
   max-width: 770px;
   margin: 0 auto; }
+  .pull-quote.motto {
+    margin-top: 2em;
+    font-weight: .75em; }
 
 .author {
   font-family: "suisseserif", serif;
