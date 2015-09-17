@@ -1747,9 +1747,12 @@ header, .header {
               flex-direction: column; } }
   .contact .hide {
     visibility: hidden; }
-  .contact .bottom-line-only {
-    border: none;
-    border-bottom: solid 1px #2C345E; }
+
+.bottom-line-only {
+  border: none;
+  border-bottom: solid 1px #2C345E;
+  background: none;
+  padding-left: 0; }
 
 /**********************
 #Footer
