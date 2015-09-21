@@ -35,13 +35,6 @@ $(document).ready(function(){
 	    Intense( elements );
 	};
 
-	var feed = new Instafeed({
-        get: 'tagged',
-        tagName: 'awesome',
-        clientId: 'YOUR_CLIENT_ID'
-    });
-    feed.run();
-
     if ($('#instafeed').length){
 	    var userFeed = new Instafeed({
 	        get: 'user',
@@ -59,9 +52,7 @@ $(window).load(function(){
 	if (window.matchMedia("(min-width: 760px)").matches) {
 		$("#collection-copy").stick_in_parent();
 		$("#collection-copy").removeClass('.collection-copy-fixed');
-		console.log('Sticky');
 	} else {
 		$("#collection-copy").trigger("sticky_kit:detach");
-		console.log('Not sticky');
 	}
 });

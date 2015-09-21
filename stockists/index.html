@@ -6,19 +6,19 @@
         <title>Beckley</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="//ordinarystudios.com/beckley/styles/main.css">
+        <link rel="stylesheet" href="/styles/main.css">
     </head>
     <body>
     <header data-top="background: rgba(255,255,255,0);" data-100="background: rgba(255,255,255,.6);" class="header">
     <div class="grid">
         <div class="grid__item">
-            <a href="//beckleybrand.com/" class="brand left">BECKLEY</a>
+            <a href="/" class="brand left">BECKLEY</a>
             <ul class="grid__item primary-nav one-whole lap--two-thirds  desk--five-twelfths right">
-                <li class="nav__item"><a href="//beckleybrand.com/collections/" class="nav__link">Collections</a></li>
-                <li class="nav__item"><a href="//beckleybrand.com/our-story/" class="nav__link">Our Story</a></li>
-                <li class="nav__item"><a href="//beckleybrand.com/press/" class="nav__link">Press</a></li>
-                <li class="nav__item"><a href="//beckleybrand.com/stockists/" class="nav__link">Stockists</a></li>
-                <li class="nav__item"><a href="//beckleybrand.com/contact/" class="nav__link">Contact</a></li>
+                <li class="nav__item"><a href="/collections/" class="nav__link">Collections</a></li>
+                <li class="nav__item"><a href="/our-story/" class="nav__link">Our Story</a></li>
+                <li class="nav__item"><a href="/press/" class="nav__link">Press</a></li>
+                <li class="nav__item"><a href="/stockists/" class="nav__link">Stockists</a></li>
+                <li class="nav__item"><a href="/contact/" class="nav__link">Contact</a></li>
             </ul>
         </div>
     </div>
@@ -130,7 +130,25 @@
 </footer>		</div>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-        <script src="//ordinarystudios.com/beckley/scripts/plugins.js"></script>
-        <script src="//ordinarystudios.com/beckley/scripts/main.js"></script>
+        <script src="/scripts/plugins.js"></script>
+        <script src="/scripts/main.js"></script>
+
+	
+
+		<script type="text/javascript">
+			$("#ShowMorePress").on('click touchstart', function(event){
+				event.preventDefault();
+				$(this).hide();
+				$(".press-item--more").css('display', 'inline-block');
+			});
+
+			$("#ShowMoreFriends").on('click touchstart', function(event){
+				event.preventDefault();
+				$(this).hide();
+				$(".celebrity-item--more").css('display', 'inline-block');
+			});
+		</script>
+	
+
     </body>
 </html>
