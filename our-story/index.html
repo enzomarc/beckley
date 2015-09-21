@@ -6,19 +6,19 @@
         <title>Beckley</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="//ordinarystudios.com/beckley/styles/main.css">
+        <link rel="stylesheet" href="/styles/main.css">
     </head>
     <body>
     <header data-top="background: rgba(255,255,255,0);" data-100="background: rgba(255,255,255,.6);" class="header">
     <div class="grid">
         <div class="grid__item">
-            <a href="//beckleybrand.com/" class="brand left">BECKLEY</a>
+            <a href="/" class="brand left">BECKLEY</a>
             <ul class="grid__item primary-nav one-whole lap--two-thirds  desk--five-twelfths right">
-                <li class="nav__item"><a href="//beckleybrand.com/collections/" class="nav__link">Collections</a></li>
-                <li class="nav__item"><a href="//beckleybrand.com/our-story/" class="nav__link">Our Story</a></li>
-                <li class="nav__item"><a href="//beckleybrand.com/press/" class="nav__link">Press</a></li>
-                <li class="nav__item"><a href="//beckleybrand.com/stockists/" class="nav__link">Stockists</a></li>
-                <li class="nav__item"><a href="//beckleybrand.com/contact/" class="nav__link">Contact</a></li>
+                <li class="nav__item"><a href="/collections/" class="nav__link">Collections</a></li>
+                <li class="nav__item"><a href="/our-story/" class="nav__link">Our Story</a></li>
+                <li class="nav__item"><a href="/press/" class="nav__link">Press</a></li>
+                <li class="nav__item"><a href="/stockists/" class="nav__link">Stockists</a></li>
+                <li class="nav__item"><a href="/contact/" class="nav__link">Contact</a></li>
             </ul>
         </div>
     </div>
@@ -31,7 +31,7 @@
 			<div class="serif">
 				<p>Melissa Akkaway is an entrepreneur and retail expert whose family has deep roots in the fashion industry. Today, Melissa carries on the family name with her advanced contemporary women's ready-to-wear label, Beckley. Launched in
 				2011 and inspired by her heritage, Beckley "borrows from the boys", blending masculine and feminine elements to create a collection that embodies refined ease.</p>
-				<p>The Beckley Brand is locally crafted in New York, with the intricacy of traditional men’s tailoring. Each fabric is globally sourced to add character and femininity to each piece. Beckley is designed for the comfort and style of our quintessential woman of the world.</p>
+				<p>The Beckley Brand is developed in New York and produced in Los Angeles, with the intricacy of traditional men&rsquo;s tailoring. Each fabric is globally sourced to add character and femininity to each piece. Beckley is designed for the comfort and style of our quintessential woman of the world.</p>
 				<p>Melissa epitomizes the Beckley woman, a busy mother of two sons with a
 				passion for travel and new experiences. She infuses her life with a sense of adventure, while relishing her home and strong family ties.</p>
 			</div>
@@ -46,7 +46,7 @@
 			 --><div class="timeline__item grid__item palm--one-whole lap--one-half desk--one-quarter serif">
 				<h5>1909</h5>
 				<img src="//ordinarystudios.com/beckley/images/our-story/timeline-1909.jpg" alt="">
-				<p>Melissa&rsquo;s great grandfather, Will Beckley, immigrates to Las Vegas, a town which at this point is mostly tents and wooden buildings. Here, he open&rsquo;s Beckley&rsquo;s, a menswear specialty store on Freemont Street.</p>
+				<p>Melissa&rsquo;s great grandfather, Will Beckley, migrates to Las Vegas, a town which at this point is mostly tents and wooden buildings. Here, he opens Beckley&rsquo;s, a menswear specialty store on Freemont Street.</p>
 			</div><!-- 
 			 --><div class="timeline__item grid__item palm--one-whole lap--one-half desk--one-quarter serif">
 				<h5>1912</h5>
@@ -56,7 +56,7 @@
 			 --><div class="timeline__item grid__item palm--one-whole lap--one-half desk--one-quarter serif">
 				<h5>1920s</h5>
 				<img src="//ordinarystudios.com/beckley/images/our-story/timeline-1920s.jpg" alt="">
-				<p>The Roaring Twenties become Beckley&rsquo;s heyday in Las Vegas. Will &amp; Leva have an oak telephone installed in their home where they can keep up with the store at all times by simply cranking the handle and dialling the number 27.</p>
+				<p>The Roaring Twenties become Beckley&rsquo;s heyday in Las Vegas. Will &amp; Leva have an oak telephone installed in their home where they can keep up with the store at all times by simply cranking the handle and dialing the number 27.</p>
 			</div><!-- 
 			 --><div class="timeline__item grid__item palm--one-whole lap--one-half desk--one-quarter serif">
 				<h5>2001</h5>
@@ -151,7 +151,25 @@
 </footer>		</div>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-        <script src="//ordinarystudios.com/beckley/scripts/plugins.js"></script>
-        <script src="//ordinarystudios.com/beckley/scripts/main.js"></script>
+        <script src="/scripts/plugins.js"></script>
+        <script src="/scripts/main.js"></script>
+
+	
+
+		<script type="text/javascript">
+			$("#ShowMorePress").on('click touchstart', function(event){
+				event.preventDefault();
+				$(this).hide();
+				$(".press-item--more").css('display', 'inline-block');
+			});
+
+			$("#ShowMoreFriends").on('click touchstart', function(event){
+				event.preventDefault();
+				$(this).hide();
+				$(".celebrity-item--more").css('display', 'inline-block');
+			});
+		</script>
+	
+
     </body>
 </html>

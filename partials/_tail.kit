@@ -1,7 +1,25 @@
 		</div>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-        <script src="//ordinarystudios.com/beckley/scripts/plugins.js"></script>
-        <script src="//ordinarystudios.com/beckley/scripts/main.js"></script>
+        <script src="/scripts/plugins.js"></script>
+        <script src="/scripts/main.js"></script>
+
+	
+
+		<script type="text/javascript">
+			$("#ShowMorePress").on('click touchstart', function(event){
+				event.preventDefault();
+				$(this).hide();
+				$(".press-item--more").css('display', 'inline-block');
+			});
+
+			$("#ShowMoreFriends").on('click touchstart', function(event){
+				event.preventDefault();
+				$(this).hide();
+				$(".celebrity-item--more").css('display', 'inline-block');
+			});
+		</script>
+	
+
     </body>
 </html>
